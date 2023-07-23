@@ -83,7 +83,7 @@ interface DashboardPageProps {
               </CardTitle>
             </CardHeader>
             <CardContent className="pl-2" >
-              <Overview data={[]} />
+              <Overview data={stockCount} />
 
             </CardContent>
 
